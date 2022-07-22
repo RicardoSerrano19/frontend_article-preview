@@ -16,6 +16,7 @@ html {
     padding: 0;
     font-size: 13px;
     font-weight: 500;
+    font-family: 'Manrope', sans-serif;
 }
 
 body{
@@ -28,6 +29,7 @@ body{
 
 main{
     max-width: 90%;
+    background-color: white;
 }
 
 .image{
@@ -36,4 +38,23 @@ main{
 
 .image img{
     max-width: 100%;
+}
+
+/* Content */
+.content{
+    padding: 2rem;
+}
+
+.content__header{
+    font-weight: 700;
+    font-size: 1.9rem;
+    color: var(--very-dark-grayish-blue);
+}
+
+.content__description{
+    font-weight: 500;
+    color: var(--desaturated-dark-blue);
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin: 2rem 0;
 }
