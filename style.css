@@ -101,3 +101,38 @@ main{
     padding: 1rem;
     border-radius: 50%;
 }
+
+/* Tooltip */
+.tooltip{
+    padding: 2rem;
+    background-color: var(--very-dark-grayish-blue);
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 0 0 1rem 1rem;
+}
+
+.tooltip__text{
+    margin: auto;
+    color: var(--desaturated-dark-blue);
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    letter-spacing: 0.4rem;
+}
+
+.tooltip__social{
+    margin: auto auto auto 0;
+}
+.tooltip__social img{
+    padding: 0 1rem;
+}
+
+.tooltip__share{
+    margin: auto 0 auto auto;
+    background-color: var(--desaturated-dark-blue);
+    border-radius: 50%;
+}
+
+.tooltip__share img{
+    padding: 1rem;
+    filter: brightness(100);
+}
