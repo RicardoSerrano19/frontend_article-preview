@@ -58,3 +58,42 @@ main{
     line-height: 2rem;
     margin: 2rem 0;
 }
+
+/* Author */
+.author{
+    display: flex;
+    flex-direction: row;
+    padding: 0 2rem;
+}
+
+.author__avatar img{
+    border-radius: 50%;
+    width: 60px;
+}
+
+.author__info{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin-left: 2rem;
+}
+
+.author__info__name{
+    color: var(--very-dark-grayish-blue);
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+}
+
+.author__info__date{
+    font-size: 1.2rem;
+    color: var(--desaturated-dark-blue);
+    font-weight: 500;
+}
+
+.author__share{
+    margin: auto 0 auto auto;
+    background-color: var(--light-grayish-blue);
+    padding: 1rem;
+    border-radius: 50%;
+}
