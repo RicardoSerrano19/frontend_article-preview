@@ -30,6 +30,7 @@ body{
 main{
     max-width: 90%;
     background-color: white;
+    border-radius: 1rem;
 }
 
 .image{
