@@ -15,6 +15,7 @@ html {
     margin: 0;
     padding: 0;
     font-size: 13px;
+    font-weight: 500;
 }
 
 body{
@@ -22,4 +23,16 @@ body{
     justify-content: center;
     align-items: center;
     padding: 1rem 0;
+}
+
+main{
+    max-width: 90%;
+}
+
+.image{
+    width: 100%
+}
+
+.image img{
+    max-width: 100%;
 }
